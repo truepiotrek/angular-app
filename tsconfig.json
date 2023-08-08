@@ -3,6 +3,7 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
+    "strict": false,
     "outDir": "./dist/out-tsc",
     "sourceMap": true,
     "declaration": false,
@@ -10,13 +11,10 @@
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,
-    "target": "ES2022",
-    "module": "ES2022",
-    "useDefineForClassFields": false,
-    "lib": [
-      "ES2022",
-      "dom"
-    ]
+    "target": "es6",
+    "module": "es6",
+    "useDefineForClassFields": true,
+    "lib": ["es6", "dom"]
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false

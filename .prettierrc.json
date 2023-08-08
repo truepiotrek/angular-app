@@ -1,0 +1,6 @@
+{
+  "arrowParens": "always",
+  "endOfLine": "crlf",
+  "printWidth": 125,
+  "semi": true
+}
